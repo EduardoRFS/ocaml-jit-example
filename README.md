@@ -12,7 +12,7 @@ esy start
 
 Currently I can only guarantee that code itself will not have any reference, for data more work is needed
 
-Most OCaml modules will have data, but that can be workaround, one way is to marshal and unmarshal the data as soon as it get's out of the called function.
+Most OCaml modules will have data, but you can workaround that by marshal and unmarshal the data as soon as it get's out of the called function.
 
 ## Overhead
 
