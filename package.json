@@ -1,0 +1,21 @@
+{
+  "name": "ocaml-jit-example",
+  "esy": {
+    "build": "dune build -p ocaml-jit-example"
+  },
+  "scripts": {
+    "start": "esy x example"
+  },
+  "dependencies": {
+    "ocaml": "4.10.x",
+    "@opam/dune": "*",
+    "@opam/ppxlib": "*",
+    "@opam/ctypes": "*",
+    "@opam/ctypes-foreign": "*",
+    "@opam/core_bench": "*"
+  },
+  "devDependencies": {
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*"
+  }
+}

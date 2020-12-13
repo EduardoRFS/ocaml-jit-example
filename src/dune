@@ -1,0 +1,7 @@
+(executable
+ (name Example)
+ (public_name example)
+ (libraries compiler-libs.bytecomp compiler-libs.optcomp ppxlib ctypes
+   ctypes.foreign core_bench)
+ (preprocess
+  (pps ppxlib.metaquot)))
